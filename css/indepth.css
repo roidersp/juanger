@@ -1,0 +1,16 @@
+/****** diseño mobile first *****/
+
+.indepth_pages{
+	width: 100%;
+}
+
+.indepth_page{
+		width: 100%;
+		position: relative;
+}
+
+.indepth_page_body{
+		width:95%;
+		margin: 0 auto;
+}
+
