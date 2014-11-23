@@ -33,9 +33,10 @@
 #indepth_intro{
 	font-family: 'Quantico', sans-serif;
 	color: #D2D2D2;
-	line-height: 38px;
-	font-size: 26px;
+	line-height: 24px;
+	font-size: 16px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 #indepth_intro .indepth_text{
@@ -52,15 +53,15 @@
 #indepth_distritos .indepth_title{
 	font-size: larger;
 	color: #FFFFFF;
-	font-size: 46px;
+	font-size: 30px;
 	text-align: center;
 	font-family: 'Black Ops One';
 	text-transform: uppercase;
 }
 
 .indepth_bracket{
-	width: 310px;
-	margin: auto;
+	width: 307px;
+	margin: 30px auto;
 	background: white;
 	height: 270px;
 	position: relative;
@@ -69,9 +70,10 @@
 
 .indepth_bracket_teams{
 	float: left;
-	width: 52px;
+	width: 51px;
 	background: aqua;
 	height: 100%;
+	position: relative;
 	display: table;
 }
 
@@ -87,12 +89,15 @@
 
 .indepth_bracket_cont.cuartos{
 	width: 100%;
+	display: inline-block;	
+	height: 100%;
 }
 
 .indepth_bracket_final{
 	width: 100%;
 	height: 50%;
 	background-color: red;
+	position: relative;
 }
 
 
@@ -100,16 +105,58 @@
 	width: 100%;
 	height: 205px;
 	background-color: green;
+	position: relative;
 }
 
 .indepth_bracket_cuartos{
 	width: 100%;
-	height: 50%;
+	height: 130px;
+	position: absolute;
+}
+
+.indepth_bracket_img{
+	position: absolute;
+}
+
+.indepth_bracket_img.up{
+	top:0px;
+}
+
+.indepth_bracket_img.down{
+	bottom:0px;
+}
+
+.indepth_bracket_cuartos.down{
+	bottom: 0px;
+}
+
+.indepth_break_marcador{
+	width: 52px;
+	height: 16px;
+	border-radius: 2px;
+	background-color: #09455C;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+	color: white;
+	font-family: 'Quantico', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	font-weight: 400;
+}
+
+.indepth_break_marcador.cuartos{
+	position: absolute;
+	top:50%;
+	margin-top: -8px;
+}
+
+.indepth_bracket_cuartos .indepth_bracket_team{
+	
 }
 
 .indepth_bracket_conect{
 	float: left;
-	width: 12px;
+	width: 13px;
 	background-color: fuchsia;
 	height: 100%;
 }
