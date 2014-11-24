@@ -345,6 +345,7 @@ svg line{
 
 .player_picture.dos{
 	left: 60px;
+	top: 209px;
 }
 
 .tributos{
@@ -412,6 +413,31 @@ svg line{
 
 .tributo_tipo{
 	font-size: 15px;
+}
+
+#indepth_footer{
+	background-color: #F8F8F8;
+	border-top: 1px solid #8A8A8A;
+	border-bottom: 1px solid #8A8A8A;
+	padding: 15px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#indepth_footer .indepth_text{
+	font-size:17px;
+	color: #8A8A8A;
+	text-align:center;
+}
+
+#indepth_footer .indepth_page_body{
+	position: relative;
+}
+
+#indepth_footer .Copyright{
+		float: left;
+		text-align: center;
+		width: 100%;
 }
 
 @media screen and (min-height: 320px) and (min-width:415px) {
@@ -751,19 +777,21 @@ svg line{
 	
 	.indepth_tributo_container{
 		width: 50%;
-		height: 200px;
+		height:500px;
 		float: left;
 	}
 	
 	.indepth_tributo_container.dos{
 		top: 0px;
 		right: 0px;
+		
 	}
 	
 	.indepth_tributo_cont{
 		width: 960px;
 		margin-left: -75px;
 		margin-top: 20px;
+		display: table;
 	}
 	
 	.player_picture{
@@ -832,6 +860,10 @@ right: 92px;
 	
 	.tributo_tipo{
 		font-size: 30px;
+	}
+	
+	.indepth_tributo_cont{
+		height: auto;
 	}
 }
 
