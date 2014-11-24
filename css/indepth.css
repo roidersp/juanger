@@ -180,3 +180,176 @@ svg line{
 .indepth_con_2{
 	stroke: #1c3848;
 }
+
+.indepth_distritos{
+	background-color: #211625;
+	color: white;
+}
+
+.indepth_distrito_logo{
+	width: 100px;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+.indepth_distrito_logo img{
+	width: 100%
+}
+
+.indepth_distrito_title{
+	color: white;
+	font-size: 15px;
+	padding: 20px 15px;
+	font-family: 'Quantico', sans-serif;
+	line-height: 19px;
+	text-transform: uppercase;
+	background-color: rgba(60, 60, 60, 0.31);
+}
+
+.indepth_distritos hr{
+	width: 96%;
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.indepth_distritos .indepth_hr2{
+	background-color: rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.indepth_distrito_estrellas{
+	font-weight: 400;
+	font-family: 'Quantico', sans-serif;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.indepth_bold{
+	font-weight: 700;
+}
+
+.indepth_estrellas{
+	width: auto;
+	height: 23px;
+	margin-top: 5px;
+}
+
+.indepth_estrella{
+	width: 23px;
+	height: 100%;
+	background-image: url(../images/america_00.png);
+	background-size: 100% auto;
+	float: left;
+	margin-right: 3px;
+}
+
+.indepth_data_left{
+	width: 170px;
+	height: 110px;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	text-transform: uppercase;
+	float: left;
+	margin-left: 15px;
+}
+
+.indepth_data_r{
+	float: left;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+.indepth_distrito_data{
+	font-family: 'Quantico', sans-serif;
+	font-weight: 700;
+}
+
+.indepth_data_title{
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.indepth_data-ofe{
+	float: left;
+}
+
+.indepth_data-def{
+	text-align: center;
+	float: right;
+	margin-right: 10px;
+}
+
+.indepth_distrito_data span{
+	font-size: 13px;
+}
+
+.indepth_distrito_data .number{
+	font-size: 49px;
+	line-height: 50px;
+}
+
+.indepth_data_porcentaje{
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: -3px;
+}
+
+.indepth_tributo{
+	margin: 20px auto;
+}
+
+.indepth_tributo_title{
+	font-family: 'Quantico', sans-serif;
+	font-size: 15px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	
+}
+
+.indepth_tributo_cont{
+	width: 311px;
+	height: 464px;
+	margin: auto;
+	margin-top: -15px;
+	position: relative;
+}
+
+.player_picture{
+	position: absolute;
+	width: 200px;
+	left: 54px;
+}
+
+.player_picture.dos{
+	left: 60px;
+	top: 208px;
+}
+
+.atributos{
+	width: 98px;
+	position: absolute;
+	top:0px;
+}
+
+.atributos.tipo{
+	top:102px;
+	left: 4px
+}
+
+.atributos.edad{
+	top: 153px;
+	left: 55px;
+}
+
+.atributos.tipo.dos{
+	top:311px;
+	left: 214px
+}
+
+.atributos.edad.dos{
+	top: 362px;
+	left: 162px;
+}
