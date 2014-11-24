@@ -46,6 +46,7 @@
 	font-size: 16px;
 	text-align: center;
 	text-transform: uppercase;
+	
 }
 
 #indepth_intro .indepth_text{
@@ -139,7 +140,7 @@
 	height: 16px;
 	border-radius: 2px;
 	background-color: #09455C;
-	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+	box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.6);
 	color: white;
 	font-family: 'Quantico', sans-serif;
 	font-size: 14px;
@@ -218,7 +219,7 @@ svg line{
 }
 
 .indepth_distritos hr{
-	width: 96%;
+	width: 100%;
 	background-color: white;
 	margin: auto;
 	padding: 0px;
@@ -252,7 +253,8 @@ svg line{
 .indepth_estrella{
 	width: 23px;
 	height: 100%;
-	background-image: url(../images/america_00.png);
+	background-image: url(../images/estrella_hunger.png);
+	background-repeat: no-repeat;
 	background-size: 100% auto;
 	float: left;
 	margin-right: 3px;
@@ -295,11 +297,13 @@ svg line{
 
 .indepth_distrito_data span{
 	font-size: 13px;
+	font-weight: 400;
 }
 
 .indepth_distrito_data .number{
 	font-size: 49px;
 	line-height: 50px;
+	font-weight: 700;
 }
 
 .indepth_data_porcentaje{
@@ -328,6 +332,10 @@ svg line{
 	position: relative;
 }
 
+.indepth_tributo_container{
+	position: relative;
+}
+
 .player_picture{
 	position: absolute;
 	width: 200px;
@@ -336,7 +344,6 @@ svg line{
 
 .player_picture.dos{
 	left: 60px;
-	top: 208px;
 }
 
 .tributos{
@@ -510,7 +517,7 @@ svg line{
 	.indepth_break_marcador{
 		width: 104px;
 		height: 38px;
-		border-radius: 2px;
+		border-radius: 4px;
 		font-size: 28px;
 		line-height: 38px;
 		text-align: center;
@@ -541,7 +548,7 @@ svg line{
 	
 	
 	.indepth_distrito_info{
-		width: 98%;
+		width: 640px;
 		margin:auto;
 	}
 	
@@ -565,7 +572,7 @@ svg line{
 	}
 	
 	.indepth_estrellas{
-		height: 36px;
+		height: 46px;
 		margin-top: 10px;
 	}
 		
@@ -606,8 +613,8 @@ svg line{
 	}
 	
 	.indepth_data_porcentaje{
-		font-size: 120px;
-		line-height: 120px;
+		font-size: 100px;
+		line-height: 100px;
 		letter-spacing: -6px;
 	}
 	
@@ -651,7 +658,7 @@ svg line{
 	}
 	
 	.tributos.edad{
-		top: 304px;
+		top: 306px;
 		left: 110px;
 		width: 196px;
 		height: 196px;
@@ -732,6 +739,99 @@ svg line{
 	
 	
 	
+}
+
+
+@media screen and (min-width: 970px) {
+	.indepth_tributo{
+		
+		
+	}
+	
+	.indepth_tributo_container{
+		width: 50%;
+		height: 200px;
+		float: left;
+	}
+	
+	.indepth_tributo_container.dos{
+		top: 0px;
+		right: 0px;
+	}
+	
+	.indepth_tributo_cont{
+		width: 960px;
+		margin-left: -75px;
+		margin-top: 20px;
+	}
+	
+	.player_picture{
+		width: 360px;
+		left: 90px;
+	}
+	
+	.player_picture.dos{
+		left: inherit;
+		top: 0px;
+		right: 90px;
+	}
+	
+	.tributos{
+		width: 176px;
+	}
+	
+	.tributos.tipo{
+		top:184px;
+		left: 0px;
+		width: 176px;
+		height: 176px;
+	}
+	
+	.tributos.edad{
+		top: 276px;
+		left: 92px;
+		width: 176px;
+		height: 176px;
+		background-size: 100%;
+	}
+	
+	.tributos.tipo.dos{
+		top:184px;
+		left: inherit;
+		right: 0px;
+	}
+	
+	.tributos.edad.dos{
+		top: 276px;
+		left: initial;
+right: 92px;
+	}
+	
+	.tributos_edad{
+		font-size: 60px;
+		margin-top: 36px;	
+	}
+	
+	.tributo_data{
+		line-height: 30px;
+		left:316px;
+		top: 324px;
+		text-transform: uppercase;
+	}
+	
+	.tributo_data.dos{
+		top: 324px;
+		left: inherit;
+		right: 296px;
+	}
+	
+	.tributo_name{
+		font-size: 36px;
+	}
+	
+	.tributo_tipo{
+		font-size: 30px;
+	}
 }
 
 
