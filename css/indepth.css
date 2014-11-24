@@ -21,11 +21,9 @@
 	margin: auto;
 }
 
-
 #indepth_cover{
 	height: 100%;
 	width: 100%;
-	
 	text-align: center;
 	line-height: 100%;
 }
@@ -328,28 +326,86 @@ svg line{
 	top: 208px;
 }
 
-.atributos{
+.tributos{
 	width: 98px;
 	position: absolute;
 	top:0px;
 }
 
-.atributos.tipo{
+.tributos.tipo{
 	top:102px;
-	left: 4px
+	left: 4px;
+	width: 98px;
+	height: 98px;
+	background-image: url(../images/ANHOS_CUADRO.png);
+	background-size: 100%;
 }
 
-.atributos.edad{
-	top: 153px;
+.tributos.edad{
+	top: 152px;
 	left: 55px;
+	width: 98px;
+	height: 98px;
+	background-image: url(../images/ANHOS_CUADRO.png);
+	background-size: 100%;
 }
 
-.atributos.tipo.dos{
-	top:311px;
-	left: 214px
+.tributos.tipo.dos{
+	top:310px;
+	left: 212px
 }
 
-.atributos.edad.dos{
+.tributos.edad.dos{
 	top: 362px;
 	left: 162px;
+}
+
+.tributos_edad{
+	color: white;
+	font-family: 'Quantico', sans-serif;
+	font-size: 29px;
+	text-align: center;
+	margin-top: 18px;
+	font-weight: 400;
+	
+}
+
+.tributo_data{
+	font-family: 'Quantico', sans-serif;
+	line-height: 15px;
+	position: absolute;
+	left:196px;
+	top: 162px;
+	text-transform: uppercase;
+}
+
+.tributo_data.dos{
+	top:383px;
+	left: 60px;
+}
+
+.tributo_name{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.tributo_tipo{
+	font-size: 15px;
+}
+
+
+@media screen and (max-height: 320px) {
+	#indepth_cover{
+		padding: 0px;
+	}
+	
+	#indepth_cover img{
+		height: 90%;
+		width:  auto;
+
+	}
+	
+	#indepth_cover .indepth_page_body{
+		height: 100%;
+	}
 }
