@@ -127,13 +127,7 @@ $(".iframe").ready(function(){
 $(document).ready(function(){
 	indepth_sizeAdjust(true);
 	indepth_preloadImgs();
-	var ventana_alto = $(window).height();
-    	$('#indepth_cover').css("height",(ventana_alto-60)+"px");
-    	console.log((ventana_alto-60)+"px")
-    	 if(ventana_alto>600){
-	 	$('.indepth_break').css("height",(ventana_alto*1.80)+"px");
-	 	$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
- 	}
+	
 	if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod' || navigator.platform == 'Android')
     {   	
     
@@ -156,18 +150,19 @@ $(document).ready(function(){
 	    console.log("ipad")
     }
 		loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
-		
+		var ventana_alto = $(window).height();
+    	$('#indepth_cover').css("height",(ventana_alto-60-(ventana_alto*.20))+"px");
+    	console.log((ventana_alto-60)+"px")
+    	 if(ventana_alto>600){
+	 	$('.indepth_break').css("height",(ventana_alto*1.80)+"px");
+	 	$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
+ 	}
 		
 });
 
 $(window).on("resize", function(){
 	indepth_sizeAdjust(false);
-	var ventana_alto = $(window).height();
-    	$('#indepth_cover').css("height",(ventana_alto-60)+"px");
-    	 if(ventana_alto>600){
-	 	$('.indepth_break').css("height",(ventana_alto*.80)+"px");
-	 	$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
- 	}
+	
 	 if(navigator.platform == 'iPad'){
 	    //$("#indepth_parallax_back").css("background-size", "100%");
 	    $("#indepth_parallax_back").css("background-attachment", "initial");
@@ -179,4 +174,12 @@ $(window).on("resize", function(){
 	 //ventana_alto=ventana_alto-(ventana_alto*.15)
 	 	//$('.indepth_anuncio_section').css("height",ventana_alto-(ventana_alto*.10)+"px");
     }
+    
+    var ventana_alto = $(window).height();
+    	$('#indepth_cover').css("height",(ventana_alto-60-(ventana_alto*.20))+"px");
+    	console.log((ventana_alto-60)+"px")
+    	 if(ventana_alto>600){
+	 	$('.indepth_break').css("height",(ventana_alto*1.80)+"px");
+	 	$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
+	 	}
 })
