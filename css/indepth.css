@@ -846,6 +846,7 @@ svg line{
 	
 	.indepth_tributo_cont{
 		min-width: 980px;
+		max-width: 1024px;
 		width: 90%;
 		margin: auto;
 		margin-top: 20px;
