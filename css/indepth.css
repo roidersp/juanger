@@ -359,8 +359,7 @@ svg line{
 	left: 4px;
 	width: 98px;
 	height: 98px;
-	background-image: url(../images/ANHOS_CUADRO.png);
-	background-size: 100%;
+	
 }
 
 .tributos.edad{
@@ -370,6 +369,60 @@ svg line{
 	height: 98px;
 	background-image: url(../images/ANHOS_CUADRO.png);
 	background-size: 100%;
+}
+
+.tipos{
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+}
+
+.tipos.velocidad{
+	background-image: url(../images/VELOCIDAD.png);
+}
+
+.tipos.olfato{
+	background-image: url(../images/OLFATO_GOLEADOR.png);
+}
+
+.tipos.derecha{
+	background-image: url(../images/DERECHA_GOLEADORA.png);
+}
+
+.tipos.fuerza{
+	background-image: url(../images/FUERZA.png);
+}
+
+.tipos.definidor{
+	background-image: url(../images/DEFINIDOR.png);
+}
+
+.tipos.liderazgo{
+	background-image: url(../images/LIDERAZGO.png);
+}
+
+.tipos.desequilibrio{
+	background-image: url(../images/DESEQUILIBRIO.png);
+}
+
+.tipos.desborde{
+	background-image: url(../images/DESBORDE.png);
+}
+
+.tipos.desequilibrio{
+	background-image: url(../images/DESEQUILIBRIO.png)
+}
+
+.tipos.distribucion{
+	background-image: url(../images/DISTRIBUCION_JUEGO.png);
+}
+
+.tipos.letal{
+	background-image: url(../images/LETAL_EN_EL_AREA.png);
+}
+
+.tipos.reflejos{
+	background-image: url(../images/REFLEJOS.png);
 }
 
 .tributos.tipo.dos{
@@ -409,6 +462,10 @@ svg line{
 .tributo_name{
 	font-size: 18px;
 	font-weight: 700;
+}
+
+.tributo_tipo{
+	font-size: 15px;
 }
 
 .tributo_tipo{
@@ -788,10 +845,15 @@ svg line{
 	}
 	
 	.indepth_tributo_cont{
-		width: 960px;
-		margin-left: -75px;
+		min-width: 980px;
+		width: 90%;
+		margin: auto;
 		margin-top: 20px;
-		display: table;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-box;
+		display: box;
+		display: flex;
 	}
 	
 	.player_picture{
