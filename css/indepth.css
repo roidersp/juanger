@@ -1,32 +1,52 @@
 	
 	.indepth_share{
-		display: table;
+		display: none;
 		position: fixed;
 		right: 3px;
 		bottom: 8px;
 		z-index: 200;
+		
 	}
 	
 	.indepth_share_item{
 		width: 40px;
 		height: 40px;
 		border-radius: 50%;
-		border: 1px solid white;
 		background-color: rgba(255, 255, 255, 0.4);
 		float: left;
 		background-repeat: no-repeat;
 		background-position: center center;
-		background-size: auto 30px ;
-		margin-left: 10px;
+		background-size: auto 20px ;
+		margin-left: 7px;
+		cursor: pointer;
 	}
 	
 	.indepth_share_item.facebook{
 		background-image: url(../images/boton_facebook.png);
 	}
 	
-	.indepth_share_item:first-child{
-		margin-left: 0px;
+	.indepth_share_item.facebook:hover{
+		background-color: #3660A4;
 	}
+	
+	.indepth_share_item.twitter{
+		background-image: url(../images/boton_twitter.png);
+	}
+	
+	.indepth_share_item.twitter:hover{
+		background-color: #02B2F7;
+	}
+	
+	
+	.indepth_share_item.whatsapp{
+		background-image: url(../images/boton_whatsapp.png);
+	}
+	
+	.indepth_share_item.whatsapp:hover{
+		background-color: #85D86D;
+	}
+	
+	
 	
 	#indepth_menu{
 		display: table;
@@ -999,7 +1019,9 @@ svg line{
 		height: 95%;
 		width: auto;
 	}
-
+	.indepth_share_item.whatsapp{
+		display: none;
+	}
 	
 
 }

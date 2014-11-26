@@ -16,7 +16,6 @@ $(document).on("click",".indepth_menu_item",function(){
 		 console.log("test");
 		 var num_menu=$(this).attr("num");
 		 var position = $("#indepth_distrito"+num_menu).position();
-		 console.log(position.top);
 		 var f_top
 		 if(detect_mobile()){
 			 f_top=position.top-61;
@@ -36,17 +35,21 @@ var indepth_skrllr=function(){
 var indepth_menu=function(){
 	$('.indepth_cover').waypoint(function(direction) {
 		$("#indepth_menu").fadeOut();
+		$(".indepth_share").fadeOut();
 	});
 	
 	 $('#indepth_distrito0').waypoint(function(direction) {
 		 if(direction=='down'){
 			 $("#indepth_menu").fadeIn("slow");
+			 $(".indepth_share").fadeIn("slow");
 		 }else{
 			  $("#indepth_menu").fadeOut();
+			   $(".indepth_share").fadeOut();
 		 }
 		 
 		 $("#indepth_menu").show();
-		 $(".indepth_menu_item").removeClass("active");
+		  $(".indepth_share").show();
+		 $(".indepth_menu").removeClass("active");
 		 var num_menu=$(this).attr("num");
 		 $("#indepth_menu_0").addClass("active");
 		 
@@ -56,8 +59,10 @@ var indepth_menu=function(){
 	 $('#indepth_footer').waypoint(function(direction) {
 		 if(direction=='down'){
 			 $("#indepth_menu").fadeOut();
+			 $(".indepth_share").fadeOut("slow");
 		 }else{
 			  $("#indepth_menu").fadeIn("slow");
+			  $(".indepth_share").fadeIn("slow");
 		 }
 		 
 		
@@ -68,6 +73,7 @@ var indepth_menu=function(){
 	
 	$(".indepth_distritos").waypoint(function(direction){
 		 $("#indepth_menu").show();
+		 $(".indepth_share").show();
 		 $(".indepth_menu_item").removeClass("active");
 		 var num_menu=$(this).attr("num");
 		 $("#indepth_menu_"+num_menu).addClass("active");		 
@@ -75,6 +81,7 @@ var indepth_menu=function(){
 	
 	$(".indepth_distritos").waypoint(function(direction){
 		 $("#indepth_menu").show();
+		 $(".indepth_share").show();
 		 $(".indepth_menu_item").removeClass("active");
 		 var num_menu=$(this).attr("num");
 		 $("#indepth_menu_"+num_menu).addClass("active");
