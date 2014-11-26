@@ -33,7 +33,7 @@
 	width: 100%;
 	height: 100%;
 	background-image: url(../images/logo_hd.png), url(../images/jugadores-silueta.png);
-	background-size: 100% auto;
+	background-size: 100% auto, 80%;
 	background-repeat: no-repeat;
 	background-position: center center, center bottom;
 }
@@ -553,6 +553,7 @@ svg line{
 
 #com{
 	width: 100%;
+	background-color: white;
 }
 
 @media screen and (min-height: 320px) and (min-width:415px) {
@@ -575,7 +576,7 @@ svg line{
 	}
 	
 	#indepth_cover .indepth_parallax_back{
-	background-size: auto 100%;
+	background-size: auto 100%, 80%;
 }
 }
 
@@ -591,7 +592,7 @@ svg line{
 
 @media screen and (min-height: 640px) and (max-width:360px){
 	#indepth_cover .indepth_parallax_back{
-	background-size: auto 100%;
+	background-size: 100% auto, 80%;
 }
 }
 
@@ -624,7 +625,7 @@ svg line{
 	}
 	
 	#indepth_cover .indepth_parallax_back{
-	background-size: 100% auto;
+	background-size: 100% auto, 80%;
 }
 }
 
