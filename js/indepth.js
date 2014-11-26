@@ -63,13 +63,14 @@ var indepth_menu=function(){
 		
 	},{offset: 'bottom-in-view'});
 	
+	
+	
+	
 	$(".indepth_distritos").waypoint(function(direction){
 		 $("#indepth_menu").show();
 		 $(".indepth_menu_item").removeClass("active");
 		 var num_menu=$(this).attr("num");
-		 $("#indepth_menu_"+num_menu).addClass("active");
-		 console.log(num_menu);		 
-		 
+		 $("#indepth_menu_"+num_menu).addClass("active");		 
 	},{offset: '70px'});
 	
 	$(".indepth_distritos").waypoint(function(direction){
@@ -78,6 +79,11 @@ var indepth_menu=function(){
 		 var num_menu=$(this).attr("num");
 		 $("#indepth_menu_"+num_menu).addClass("active");
 		 
+	},{offset: 'bottom-in-view'});
+	
+	$("#indepth_distritos").waypoint(function(direction){
+		$(".indepth_menu_item").removeClass("active");
+		 $("#indepth_menu_0").addClass("active");
 	},{offset: 'bottom-in-view'});
 	
 	 $("#indepth_menu").hide();
