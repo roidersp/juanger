@@ -560,6 +560,8 @@ svg line{
 
 
 
+
+
 #indepth_distrito1{
 	background-color: #051021;
 }
@@ -846,12 +848,12 @@ svg line{
 
 	
 	.indepth_data_title{
-		font-size: 25px;
+		font-size: 23px;
 		padding-top: 20px;
 	}
 	
 	.indepth_data_text{
-	font-size: 23px;
+	font-size: 21px;
 	font-weight: 400;
 }
 
@@ -861,7 +863,7 @@ svg line{
 	}
 	
 	.indepth_distrito_data span{
-		font-size: 23px;
+		font-size: 21px;
 	}
 	
 	.indepth_distrito_data .number{
