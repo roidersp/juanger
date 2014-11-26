@@ -406,8 +406,13 @@ svg line{
 }
 
 .indepth_data_title{
-	font-size: 15px;
+	font-size: 14px;
 	padding-top: 10px;
+}
+
+.indepth_data_text{
+	font-size: 12px;
+	font-weight: 400;
 }
 
 .indepth_data-ofe{
@@ -421,7 +426,7 @@ svg line{
 }
 
 .indepth_distrito_data span{
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 }
 
@@ -841,9 +846,14 @@ svg line{
 
 	
 	.indepth_data_title{
-		font-size: 30px;
+		font-size: 25px;
 		padding-top: 20px;
 	}
+	
+	.indepth_data_text{
+	font-size: 23px;
+	font-weight: 400;
+}
 
 	
 	.indepth_data-def{
@@ -851,7 +861,7 @@ svg line{
 	}
 	
 	.indepth_distrito_data span{
-		font-size: 26px;
+		font-size: 23px;
 	}
 	
 	.indepth_distrito_data .number{
