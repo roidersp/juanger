@@ -136,8 +136,15 @@ $(".iframe").ready(function(){
 
 $(document).ready(function(){
 	indepth_sizeAdjust(true);
+	var ventana_alto = $(window).height();
 	var mobile=detect_mobile();
 	if(!mobile){
+		
+		var dta_ventana=ventana_alto-60-(ventana_alto*.20);
+		$('#indepth_cover').attr("data-0","height:"+(dta_ventana)+"px;margin-top:0px;");
+		$('#indepth_cover').attr("data-50","height:"+(dta_ventana*.75)+"px;margin-top:50px;");
+		$('#indepth_cover').attr("data-100","height:"+(dta_ventana*.50)+"px;margin-top:100px;");
+		$('#indepth_cover').attr("data-1500","height:"+(dta_ventana*.60)+"px;margin-top:150px;");
 		indepth_skrllr();
 	}
 	indepth_preloadImgs();
@@ -166,7 +173,6 @@ $(document).ready(function(){
 		loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
 		var ventana_alto = $(window).height();
     	$('#indepth_cover').css("height",(ventana_alto-60-(ventana_alto*.20))+"px");
-    	console.log((ventana_alto-60)+"px")
     	 if(ventana_alto>600){
 	 	$('.indepth_break').css("height",(ventana_alto*1.80)+"px");
 	 	$('#indepth_cover .indepth_cover_back_body').css("top",ventana_alto*.60);
