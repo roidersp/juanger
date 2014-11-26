@@ -40,6 +40,28 @@
 }
 
 
+.indepth_video {
+	 margin: auto;
+    position: relative;
+    padding-bottom: 41.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin-top: 50px;
+    width: 80%;
+   
+}
+
+
+.indepth_video iframe,
+.indepth_video object,
+.indepth_video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 #indepth_intro{
 	font-family: 'Quantico', sans-serif;
 	color: #D2D2D2;
