@@ -17,7 +17,6 @@
 
 .indepth_pages img{
 	height: auto;
-	width: 80%;
 	margin: auto;
 }
 
@@ -441,6 +440,10 @@ svg line{
 
 .tipos.letal{
 	background-image: url(../images/LETAL_EN_EL_AREA.png);
+}
+
+.tipos.reflejos{
+	background-image: url(../images/REFLEJOS.png);
 }
 
 .tipos.reflejos{
