@@ -1023,18 +1023,19 @@ right: 92px;
 		height: auto;
 	}
 	
-	.indepth_menu{
+	#indepth_menu{
 		display: table;
 		position: fixed;
-		top:3%;
+		top:2%;
 		left: 3%;
 		z-index: 200;
+		display: none;
 	}
 	
 	.indepth_menu_item{
 		width: 58px;
 		height: 66px;
-		margin-bottom: 10px;
+		margin-bottom: 3px;
 		background-position: center center;
 		background-size: 100%;
 		opacity: .20;
