@@ -916,6 +916,10 @@ svg line{
 		
 	}
 	
+	.indepth_page{
+		width: 100%;
+	}
+	
 	#indepth_intro .indepth_text {
 		
 			padding-top: 70px;
@@ -936,7 +940,7 @@ svg line{
 	
 	.indepth_tributo_cont{
 		min-width: 980px;
-		max-width: 1024px;
+		max-width: 1000px;
 		width: 90%;
 		margin: auto;
 		margin-top: 20px;
@@ -1018,8 +1022,77 @@ right: 92px;
 	.indepth_tributo_cont{
 		height: auto;
 	}
+	
+	.indepth_menu{
+		display: table;
+		position: fixed;
+		top:3%;
+		left: 3%;
+		z-index: 200;
+	}
+	
+	.indepth_menu_item{
+		width: 58px;
+		height: 66px;
+		margin-bottom: 10px;
+		background-position: center center;
+		background-size: 100%;
+		opacity: .20;
+	}
+	
+	.indepth_menu_item.active{
+		opacity: .90;
+	}
+	
+	#indepth_menu_1{
+		background-image: url(../images/america_00.png);
+	}
+	
+	#indepth_menu_2{
+		background-image: url(../images/tigres_00.png);
+	}
+	
+	#indepth_menu_3{
+		background-image: url(../images/atlas_00.png);
+	}
+	
+	#indepth_menu_4{
+		background-image: url(../images/toluca_00.png);
+	}
+	
+	#indepth_menu_5{
+		background-image: url(../images/jaguares_00.png);
+	}
+	
+	#indepth_menu_6{
+		background-image: url(../images/monterrey_00.png);
+	}
+	
+	#indepth_menu_7{
+		background-image: url(../images/pachuca_00.png);
+	}
+	
+	#indepth_menu_8{
+		background-image: url(../images/pumas_00.png);
+	}
+	
 }
 
+
+@media screen and (min-width: 1025px) {
+	.indepth_tributo_cont{
+		min-width: 980px;
+		max-width: 1050px;
+		width: 90%;
+		margin: auto;
+		margin-top: 20px;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-box;
+		display: box;
+		display: flex;
+	}
+}
 
 
 
