@@ -12,6 +12,16 @@ $(document).on("click", "#indepth_button_ver" ,function(){
 		}, 2000);
 	});
 
+
+
+var indepth_skrllr=function(){
+	 var s = skrollr.init();
+	 
+	 
+	
+}
+
+
 var indepth_sizeAdjust = function(firstTime){
 	$(".indepth_page").each(function(){
 		if($(this).attr("resize") == "true"){
@@ -126,6 +136,10 @@ $(".iframe").ready(function(){
 
 $(document).ready(function(){
 	indepth_sizeAdjust(true);
+	var mobile=detect_mobile();
+	if(!mobile){
+		indepth_skrllr();
+	}
 	indepth_preloadImgs();
 	
 	if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod' || navigator.platform == 'Android')
